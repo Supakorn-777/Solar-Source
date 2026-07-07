@@ -2,21 +2,21 @@ import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import { Outlet } from "react-router-dom";
 
-export default function MainLayout(){
+export default function MainLayout() {
 
-return (
+    return (
 
-<>
-<Navbar />
+        <>
+            <Navbar />
 
-<main>
-<Outlet />
-</main>
+            <main>
+                <Outlet />
+            </main>
 
-<Footer />
+            <Footer />
 
-</>
+        </>
 
-)
+    )
 
 }

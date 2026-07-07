@@ -1,28 +1,32 @@
 import { Sun, Menu } from "lucide-react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 
 export default function Navbar() {
 
+  const [isUseMenu, setIsUseMenu] = useState(false);
+
+
   return (
 
     <header className="
-sticky top-0
-z-50
-bg-white
-shadow-sm
-">
+    sticky top-0
+    z-50
+    bg-white
+    shadow-sm
+    ">
 
 
       <div className="
-mx-auto
-flex
-h-20
-max-w-7xl
-items-center
-justify-between
-px-6
-">
+      mx-auto
+      flex
+      h-20
+      max-w-7xl
+      items-center
+      justify-between
+      px-6
+      ">
 
 
         <div className="flex items-center gap-2">
@@ -30,10 +34,10 @@ px-6
           <Sun className="text-orange-500" />
 
           <h1 className="
-text-2xl
-font-bold
-text-blue-600
-">
+          text-2xl
+          font-bold
+          text-blue-600
+          ">
 
             Solar Source
 
@@ -46,11 +50,10 @@ text-blue-600
         {/* Desktop Menu */}
 
         <nav className="
-hidden
-gap-8
-md:flex
-">
-
+        hidden
+        gap-8
+        md:flex
+        ">
 
           <NavLink to="/">
             Home
@@ -84,8 +87,8 @@ md:flex
         {/* Mobile Button */}
 
         <button className="
-        md:hidden
-        ">
+          md:hidden"
+        >
 
           <Menu />
 
@@ -94,7 +97,6 @@ md:flex
 
 
         <NavLink
-
           to="/quote"
 
           className="
@@ -104,17 +106,12 @@ md:flex
           py-3
           text-white
           "
-
         >
 
           Get Quote
 
         </NavLink>
-
-
-
       </div>
-
 
     </header>
 

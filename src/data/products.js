@@ -1,4 +1,9 @@
+import aiko665 from "@/assets/products/aiko-665.jpg";
+import longi650 from "@/assets/products/longi-650.jpg";
+import trina720 from "@/assets/products/trina-720.jpg";
+
 const products = [
+
   {
     id: "aiko-665",
     brand: "AIKO",
@@ -6,7 +11,7 @@ const products = [
     power: "665W",
     efficiency: "24.6%",
     price: "4.75 บาท/W",
-    image: "src/assets/products/aiko-665.jpg",
+    image: aiko665,
     description:
       "แผงโซลาร์เซลล์ประสิทธิภาพสูง เหมาะสำหรับโครงการขนาดใหญ่",
     warranty:
@@ -20,7 +25,7 @@ const products = [
     power: "650W",
     efficiency: "23.8%",
     price: "4.65 บาท/W",
-    image: "src/assets/products/longi-650.jpg",
+    image: longi650,
     description:
       "แผง Solar คุณภาพสูงจากผู้ผลิตระดับโลก",
     warranty:
@@ -34,7 +39,7 @@ const products = [
     power: "720W",
     efficiency: "23.2%",
     price: "4.90 บาท/W",
-    image: "src/assets/products/trina-720.jpg",
+    image: trina720,
     description:
       "โซลาร์เซลล์สำหรับงานอุตสาหกรรมและโครงการ",
     warranty:
