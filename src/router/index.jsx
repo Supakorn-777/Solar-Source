@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 import MainLayout from "../layouts/MainLayout";
 import Calculator from "../pages/Calculator";
@@ -9,7 +9,7 @@ import Promotions from "../pages/Promotions";
 import Quote from "../pages/Quote";
 import Contact from "../pages/Contact";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
