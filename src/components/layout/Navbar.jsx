@@ -17,7 +17,6 @@ export default function Navbar() {
     shadow-sm
     ">
 
-
       <div className="
       mx-auto
       flex
@@ -88,13 +87,12 @@ export default function Navbar() {
 
         <button className="
           md:hidden"
+          onClick={() => setIsUseMenu(!isUseMenu)}
         >
-
           <Menu />
-
         </button>
 
-
+        
 
         <NavLink
           to="/quote"
@@ -111,10 +109,23 @@ export default function Navbar() {
           Get Quote
 
         </NavLink>
+
+        
       </div>
 
-    </header>
+      {/* Mobile Menu */}
+        {isUseMenu && (
+          <div className="md:hidden flex flex-col gap-4 p-4 bg-white">
+            <NavLink to="/" onClick={() => setIsUseMenu(false)}>Home</NavLink>
+            <NavLink to="/products" onClick={() => setIsUseMenu(false)}>Products</NavLink>
+            <NavLink to="/promotions" onClick={() => setIsUseMenu(false)}>Promotions</NavLink>
+            <NavLink to="/contact" onClick={() => setIsUseMenu(false)}>Contact</NavLink>
+            <NavLink to="/calculator" onClick={() => setIsUseMenu(false)}>Calculator</NavLink>
+          </div>
+        )}
 
+    </header>
+    
   )
 
 }
