@@ -193,43 +193,42 @@ bg-blue-600\r
                   `,children:e.name}),(0,L.jsx)(`p`,{className:`\r
                     mt-4\r
                     text-gray-500\r
-                  `,children:e.description})]})})},e.name))})]})})}var Yg=[{id:`aiko-665`,brand:`AIKO`,model:`AIKO 665W Dual Glass`,power:`665W`,efficiency:`24.6%`,price:`4.75 บาท/W`,image:`/src/assets/products/aiko-665.jpg`,description:`แผงโซลาร์เซลล์ประสิทธิภาพสูง เหมาะสำหรับโครงการขนาดใหญ่`,warranty:`รับประกันสินค้า 15 ปี`},{id:`longi-650`,brand:`LONGi`,model:`LONGi 650W`,power:`650W`,efficiency:`23.8%`,price:`4.65 บาท/W`,image:`/src/assets/products/longi-650.jpg`,description:`แผง Solar คุณภาพสูงจากผู้ผลิตระดับโลก`,warranty:`รับประกันสินค้า 15 ปี`},{id:`trina-720`,brand:`Trina Solar`,model:`Trina 720W`,power:`720W`,efficiency:`23.2%`,price:`4.90 บาท/W`,image:`/src/assets/products/trina-720.jpg`,description:`โซลาร์เซลล์สำหรับงานอุตสาหกรรมและโครงการ`,warranty:`รับประกันสินค้า 15 ปี`}];function Xg(e){return Ni(e.defaultTagName??`div`,e,e)}var Zg=Wi(`group/badge inline-flex h-5 w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-4xl border border-transparent px-2 py-0.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none [&>svg]:size-3!`,{variants:{variant:{default:`bg-primary text-primary-foreground [a]:hover:bg-primary/80`,secondary:`bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80`,destructive:`bg-destructive/10 text-destructive focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:focus-visible:ring-destructive/40 [a]:hover:bg-destructive/20`,outline:`border-border text-foreground [a]:hover:bg-muted [a]:hover:text-muted-foreground`,ghost:`hover:bg-muted hover:text-muted-foreground dark:hover:bg-muted/50`,link:`text-primary underline-offset-4 hover:underline`}},defaultVariants:{variant:`default`}});function Qg({className:e,variant:t=`default`,render:n,...r}){return Xg({defaultTagName:`span`,props:$r({className:po(Zg({variant:t}),e)},r),render:n,state:{slot:`badge`,variant:t}})}function $g({product:e}){return(0,L.jsxs)(Gg,{className:`\r
-      rounded-3xl\r
-      overflow-hidden\r
-      hover:shadow-xl\r
-      transition\r
-      `,children:[(0,L.jsx)(`div`,{className:`\r
-h-52\r
-bg-slate-100\r
-overflow-hidden\r
-`,children:(0,L.jsx)(`img`,{src:e.image,alt:e.model,className:`\r
-h-full\r
-w-full\r
-object-cover\r
-`})}),(0,L.jsxs)(Kg,{className:`p-6`,children:[(0,L.jsx)(Qg,{children:e.tag}),(0,L.jsx)(`h3`,{className:`\r
-          mt-4\r
-          text-2xl\r
-          font-bold\r
-        `,children:e.brand}),(0,L.jsx)(`p`,{className:`text-gray-500`,children:e.model}),(0,L.jsxs)(`div`,{className:`mt-5 space-y-2`,children:[(0,L.jsxs)(`p`,{children:[`⚡ Power:`,(0,L.jsxs)(`b`,{children:[` `,e.power]})]}),(0,L.jsxs)(`p`,{children:[`📈 Efficiency:`,(0,L.jsxs)(`b`,{children:[` `,e.efficiency]})]}),(0,L.jsx)(`p`,{className:`\r
-            text-xl\r
-            font-bold\r
-            text-blue-600\r
-          `,children:e.price})]}),(0,L.jsx)(nr,{to:`/products/${e.id}`,children:(0,L.jsx)(ho,{className:`w-full`,children:`ดูรายละเอียด`})})]})]})}function e_(){return(0,L.jsx)(`section`,{className:`py-24 bg-slate-50`,children:(0,L.jsxs)(`div`,{className:`\r
-mx-auto\r
-max-w-7xl\r
-px-6\r
-`,children:[(0,L.jsxs)(`div`,{className:`text-center`,children:[(0,L.jsx)(`h2`,{className:`\r
-text-4xl\r
-font-bold\r
-`,children:`Featured Products`}),(0,L.jsx)(`p`,{className:`\r
-mt-4\r
-text-gray-500\r
-`,children:`แผงโซลาร์เซลล์คุณภาพสูง พร้อมราคาพิเศษ`})]}),(0,L.jsx)(`div`,{className:`\r
-mt-14\r
-grid\r
-gap-8\r
-md:grid-cols-3\r
-`,children:Yg.map(e=>(0,L.jsx)($g,{product:e},e.id))})]})})}var t_=[{icon:Sr,title:`ราคาส่งจากแหล่งสินค้า`,description:`เข้าถึงราคาแข่งขันสำหรับผู้ติดตั้งและโครงการ`},{icon:br,title:`สินค้าของแท้`,description:`จำหน่ายแผงจากแบรนด์ชั้นนำระดับโลก`},{icon:Pr,title:`พร้อมส่ง`,description:`มีสินค้าและระบบจัดส่งทั่วประเทศ`},{icon:Cr,title:`Datasheet ครบ`,description:`มีข้อมูลสินค้าและเอกสารประกอบ`},{icon:Mr,title:`มาตรฐานระดับโลก`,description:`คัดเลือกเฉพาะแบรนด์ Tier 1`},{icon:Tr,title:`บริการให้คำปรึกษา`,description:`ช่วยเลือกสินค้าให้เหมาะกับโครงการ`}];function n_(){return(0,L.jsx)(`section`,{className:`py-24 bg-white`,children:(0,L.jsxs)(`div`,{className:`\r
+                  `,children:e.description})]})})},e.name))})]})})}var Yg=[{id:`aiko-665`,brand:`AIKO`,model:`AIKO 665W Dual Glass`,power:`665W`,efficiency:`24.6%`,price:`4.75 บาท/W`,image:`src/assets/products/aiko-665.jpg`,description:`แผงโซลาร์เซลล์ประสิทธิภาพสูง เหมาะสำหรับโครงการขนาดใหญ่`,warranty:`รับประกันสินค้า 15 ปี`},{id:`longi-650`,brand:`LONGi`,model:`LONGi 650W`,power:`650W`,efficiency:`23.8%`,price:`4.65 บาท/W`,image:`src/assets/products/longi-650.jpg`,description:`แผง Solar คุณภาพสูงจากผู้ผลิตระดับโลก`,warranty:`รับประกันสินค้า 15 ปี`},{id:`trina-720`,brand:`Trina Solar`,model:`Trina 720W`,power:`720W`,efficiency:`23.2%`,price:`4.90 บาท/W`,image:`src/assets/products/trina-720.jpg`,description:`โซลาร์เซลล์สำหรับงานอุตสาหกรรมและโครงการ`,warranty:`รับประกันสินค้า 15 ปี`}];function Xg(e){return Ni(e.defaultTagName??`div`,e,e)}var Zg=Wi(`group/badge inline-flex h-5 w-fit shrink-0 items-center justify-center gap-1 overflow-hidden rounded-4xl border border-transparent px-2 py-0.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none [&>svg]:size-3!`,{variants:{variant:{default:`bg-primary text-primary-foreground [a]:hover:bg-primary/80`,secondary:`bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80`,destructive:`bg-destructive/10 text-destructive focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:focus-visible:ring-destructive/40 [a]:hover:bg-destructive/20`,outline:`border-border text-foreground [a]:hover:bg-muted [a]:hover:text-muted-foreground`,ghost:`hover:bg-muted hover:text-muted-foreground dark:hover:bg-muted/50`,link:`text-primary underline-offset-4 hover:underline`}},defaultVariants:{variant:`default`}});function Qg({className:e,variant:t=`default`,render:n,...r}){return Xg({defaultTagName:`span`,props:$r({className:po(Zg({variant:t}),e)},r),render:n,state:{slot:`badge`,variant:t}})}function $g({product:e}){return(0,L.jsxs)(Gg,{className:`\r
+            rounded-3xl\r
+            overflow-hidden\r
+            hover:shadow-xl\r
+            transition\r
+            `,children:[(0,L.jsx)(`div`,{className:`\r
+            h-52\r
+            bg-slate-100\r
+            overflow-hidden\r
+            `,children:(0,L.jsx)(`img`,{src:e.image,alt:e.model,className:`\r
+                    h-full\r
+                    w-full\r
+                    object-cover\r
+                    `})}),(0,L.jsxs)(Kg,{className:`p-6`,children:[(0,L.jsx)(Qg,{children:e.tag}),(0,L.jsx)(`h3`,{className:`\r
+                    mt-4\r
+                    text-2xl\r
+                    font-bold\r
+                    `,children:e.brand}),(0,L.jsx)(`p`,{className:`text-gray-500`,children:e.model}),(0,L.jsxs)(`div`,{className:`mt-5 space-y-2`,children:[(0,L.jsxs)(`p`,{children:[`⚡ Power:`,(0,L.jsxs)(`b`,{children:[` `,e.power]})]}),(0,L.jsxs)(`p`,{children:[`📈 Efficiency:`,(0,L.jsxs)(`b`,{children:[` `,e.efficiency]})]}),(0,L.jsx)(`p`,{className:`\r
+                        text-xl\r
+                        font-bold\r
+                        text-blue-600\r
+                    `,children:e.price})]}),(0,L.jsx)(nr,{to:`/products/${e.id}`,children:(0,L.jsx)(ho,{className:`w-full`,children:`ดูรายละเอียด`})})]})]})}function e_(){return(0,L.jsx)(`section`,{className:`py-24 bg-slate-50`,children:(0,L.jsxs)(`div`,{className:`\r
+                mx-auto\r
+                max-w-7xl\r
+                px-6`,children:[(0,L.jsxs)(`div`,{className:`text-center`,children:[(0,L.jsx)(`h2`,{className:`\r
+                    text-4xl\r
+                    font-bold\r
+                    `,children:`Featured Products`}),(0,L.jsx)(`p`,{className:`\r
+                    mt-4\r
+                    text-gray-500\r
+                    `,children:`แผงโซลาร์เซลล์คุณภาพสูง พร้อมราคาพิเศษ`})]}),(0,L.jsx)(`div`,{className:`\r
+                mt-14\r
+                grid\r
+                gap-8\r
+                md:grid-cols-3\r
+                `,children:Yg.map(e=>(0,L.jsx)($g,{product:e},e.id))})]})})}var t_=[{icon:Sr,title:`ราคาส่งจากแหล่งสินค้า`,description:`เข้าถึงราคาแข่งขันสำหรับผู้ติดตั้งและโครงการ`},{icon:br,title:`สินค้าของแท้`,description:`จำหน่ายแผงจากแบรนด์ชั้นนำระดับโลก`},{icon:Pr,title:`พร้อมส่ง`,description:`มีสินค้าและระบบจัดส่งทั่วประเทศ`},{icon:Cr,title:`Datasheet ครบ`,description:`มีข้อมูลสินค้าและเอกสารประกอบ`},{icon:Mr,title:`มาตรฐานระดับโลก`,description:`คัดเลือกเฉพาะแบรนด์ Tier 1`},{icon:Tr,title:`บริการให้คำปรึกษา`,description:`ช่วยเลือกสินค้าให้เหมาะกับโครงการ`}];function n_(){return(0,L.jsx)(`section`,{className:`py-24 bg-white`,children:(0,L.jsxs)(`div`,{className:`\r
 max-w-7xl\r
 mx-auto\r
 px-6\r
